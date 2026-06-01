@@ -6,12 +6,8 @@ while True:
 2. Triángulo normal
 3. Triángulo invertido
 4. Salir""")
-
-    try:
-        seleccion = int(input("\nElige una opción: "))
-    except ValueError:
-        print("\nError. Por favor, introduce sólo números")
-        continue
+    
+    seleccion = int(input("\nElige una opción: "))
 
     if seleccion < 1 or seleccion > 4:
         print("Número incorrecto. Elija una de las opciones indicadas: ")
